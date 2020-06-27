@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(dev-srv.canadacentral.cloudapp.azure.com dev-srv.canadacentral.cloudapp.azure.com)
+domains=(dev-srv.centralus.cloudapp.azure.com dev-srv.centralus.cloudapp.azure.com)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="" # Adding a valid address is strongly recommended
