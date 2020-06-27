@@ -21,5 +21,4 @@ services:
     entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
   sample:
     image: mcr.microsoft.com/dotnet/core/samples:aspnetapp
-    ports:
-      - "4000:80"
+ 
